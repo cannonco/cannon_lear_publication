@@ -1,0 +1,1 @@
+<?php get_header(); ?><section class="paper section"><div class="wrap"><h1><?php bloginfo('name'); ?></h1><?php if(have_posts()):while(have_posts()):the_post();the_content();endwhile;else:?><p>The requested page could not be found.</p><?php endif; ?></div></section><?php get_footer(); ?>
