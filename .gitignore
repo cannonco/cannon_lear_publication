@@ -1,0 +1,36 @@
+# WordPress runtime / sensitive files
+wp-config.php
+wp-config-*.php
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User content and runtime state
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+*.log
+
+# Database / hosting backups
+*.sql
+*.sql.gz
+*.wpress
+*.tar.gz
+*.tgz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets/config
+secrets/
+credentials/
+*.secret
